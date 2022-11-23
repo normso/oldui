@@ -1,0 +1,24 @@
+.navBarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarLogoContainer{
+    margin-left: 30px;
+}
+
+.navBarLogoContainer > h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color:#C29999;
+}
+
+.navBarToggleMode{
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    margin-right: 30px;
+}
+

@@ -1,0 +1,128 @@
+.gameContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:70px;
+}
+
+.gameScoreCard{
+    
+    width: 70%;
+    height:150px;
+    background-color: #494946;
+    border-radius:10px ;
+    display: flex;
+    gap:5%;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.tictacContainer{
+    margin-top: 50px;
+    width:70%;
+    aspect-ratio: 1;
+}
+
+
+.rowContainer{
+    width: 100%;
+    height:calc(98%/3);
+    border-bottom: 5px solid #C29999;
+    display: flex;
+}
+
+.last{
+    border: none;
+}
+
+
+.cellContainer{
+    width:calc(98%/3);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cellfree:hover{
+    background-color:#C29999 ;
+}
+
+.middle{
+    border-left: 5px solid #C29999;
+    border-right: 5px solid #C29999;
+}
+
+.circle{
+    border: 5px solid #C29999;
+    border-radius: 50%;
+    width:50%;
+    height:50%;
+}
+
+.circle{
+    border: 7px solid #C29999;
+    border-radius: 50%;
+    width:45%;
+    height:45%;
+}
+
+
+
+.cross{
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+
+.cross:before, .cross:after {
+    
+    position: absolute;
+    left:40% ;
+    content: ' ';
+    height: 110%;
+    width: 15%;
+    background-color: #C29999;
+  }
+
+
+  .cross:before {
+    transform: rotate(45deg);
+  }
+  .cross:after {
+    transform: rotate(-45deg);
+  }
+
+
+
+
+  .gameScore{
+    width:25%;
+    height:100%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+
+  }
+  .gameScoreImgContainer{
+    width:70%;
+    height:70%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gameScoreText{
+    font-size: 2rem;
+    font-weight: 500;
+
+  }
+
+  .gameScoreActive{
+    background-color: aqua;
+}

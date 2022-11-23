@@ -1,0 +1,66 @@
+.homeRoomContainer{
+    margin: auto;
+    margin-top: 70px;
+    width:90%;
+    background-color: #494946;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px 0px ;
+    gap:50px;
+
+}
+
+.homeRoomInput{
+    border: none;
+    width:80%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #C29999;
+    padding: 5px;
+    text-align: center;
+    background-color: #494946;
+    border-bottom: 2px solid #212121;
+}
+.homeRoomInput:focus{
+    outline-style: none;
+}
+
+
+.homeRoomAvatarsContainer{
+    width:80%;
+    height:200px;
+}
+
+
+
+.homeRoomButton{
+    border: none;
+    width:80%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 10px;
+    height:50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: chartreuse;
+}
+
+
+.homeRoomButton:hover{
+    cursor: pointer;
+}
+
+.homeRoomButton:active{
+    box-shadow: none;
+}
+
+
+
+
+.lobbyContainer{
+    width:100%;
+    height:100%;
+    background-color: red;
+}
+
